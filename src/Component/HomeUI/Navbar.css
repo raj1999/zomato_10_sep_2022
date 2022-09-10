@@ -1,0 +1,105 @@
+.address_div {
+  width: 300px;
+  display: flex;
+  position: static;
+  float: none;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+}
+.navbar {
+  background-color: #241342 !important;
+  color: white;
+  height: 80px;
+}
+.location {
+  display: flex;
+  position: static;
+  float: none;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #241342;
+  color: white;
+}
+.location:hover {
+  border: 1.5px solid rgb(255, 255, 255);
+  border-radius: 7px;
+}
+.navbar-brand {
+  color: white !important;
+}
+.place {
+  margin-left: 3px;
+  display: flex;
+  position: static;
+  float: none;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+}
+
+.location-icon {
+  background-position: -71px -378px;
+  width: 15px;
+  height: 18px;
+  margin-top: 8px;
+}
+
+.nav-items {
+  /* border: 1px solid white;
+  border-radius: 5px; */
+}
+.nav-items > a {
+  color: white !important;
+  background-color: #241342;
+}
+.nav-items :hover {
+  background: #241342 !important;
+  /* opacity: 0.5; */
+  color: white !important;
+  border: 1px solid white;
+  border-radius: 3px;
+}
+
+.form-inline {
+  width: 90%;
+}
+.form-control {
+  width: 60% !important;
+  display: flex;
+  position: static;
+  float: none;
+}
+
+.btn-lite:hover {
+  background: white !important;
+  opacity: 0.5;
+}
+
+.btn-lite {
+  height: 38px;
+}
+
+.nav-link-country {
+  color: white !important;
+  border: 1px solid white;
+  display: flex;
+  position: static;
+  float: none;
+  -webkit-box-flex-group: column nowrap;
+  padding: 0;
+}
+
+.lang {
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.abc {
+  display: flex;
+  position: static;
+  float: none;
+  align-items: center;
+  flex-direction: column;
+}
+.dropdown-toggle::after {
+  display: none;
+}
